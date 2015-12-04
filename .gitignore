@@ -1,0 +1,30 @@
+# Hidden files/directories
+.*
+!/.gitignore
+!.htaccess
+
+*.class
+
+# --- idea
+*.iml
+*.ipr
+*.iws
+
+# Package Files #
+#*.jar
+*.war
+*.ear
+*.log
+# --- Maven
+**/target/**
+
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+*.ids
+
+Servers/Tomcat v8.0 Server at localhost-config/catalina.policy
+Servers/Tomcat v8.0 Server at localhost-config/catalina.properties
+Servers/Tomcat v8.0 Server at localhost-config/context.xml
+Servers/Tomcat v8.0 Server at localhost-config/server.xml
+Servers/Tomcat v8.0 Server at localhost-config/tomcat-users.xml
+Servers/Tomcat v8.0 Server at localhost-config/web.xml
